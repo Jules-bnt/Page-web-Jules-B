@@ -1,0 +1,76 @@
+body {
+	font-family: lexend;
+	background-image: url(Espace.jpg);
+	color : #AFC6BC;
+	text-align: center;
+	}
+h1 {
+	font-size: 60px;
+	font-family: lexend;
+	}
+
+h2 {
+	font-size: 20px
+	font-family: lexend;
+	}
+p {
+	font-family: lexend;
+	font-size: 20px
+	}
+
+
+div {
+	text-align: center;
+	margin: 20px auto;
+	width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#titre {
+	width: 1000px;
+	border-radius: 10px;
+	line-height: 0.5
+	background-color: rgba(100, 100, 100, 0.4);
+}
+
+#image {
+	border-radius: 10px;
+	width: 1200px;
+	background-color: rgba(100, 100, 100, 0.4);
+}
+
+.text {
+	border-radius: 10px;
+	background-color: rgba(100, 100, 100, 0.4);
+}
+
+.images{
+	border-radius: 10px;
+	width: 1000px;
+}
+
+.credit {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	#logo {
+		width: 50px;
+		height: 50px;
+		border-radius: 10px;
+	}
+	#credit2 {
+		font-family: lexend;
+		font-size: 25px;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: #AFC6BC;
+}
+
+a:hover {
+	text-decoration: underline;
+}
